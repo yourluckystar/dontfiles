@@ -1,0 +1,14 @@
+[user]
+	name = Your
+	email = 184955262+yourluckystar@users.noreply.github.com
+	signingkey = /home/ame/.ssh/git/sign.pub
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/ame/.ssh/git/allowed_signers
